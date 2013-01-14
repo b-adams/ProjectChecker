@@ -1,0 +1,29 @@
+.debug-warning {
+	color: #000;
+	background-color: #ff8a00;
+	border: 3px dashed #black;
+	display: inline-block;
+	text-align: center;
+	font: small-caps 12pt "Comic Sans MS";
+	-webkit-transition-property: color, background-color, border, font, visibility, display;
+	-webkit-transition-duration: 3s, 3s, 3s, 3s, 3s, 3s;
+	-webkit-transition-timing-function: linear, linear, linear, linear, linear, linear;	
+}
+
+.debug-good {
+	font-variant: small-caps;
+	color: #000;
+	background-color: #008aff;
+	border: 3px dashed #black;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+}
+
+.debug-highlight {
+	background-color: rgba(251,255,0,0.5);
+	border: 3px dashed rgba(255,0,0,0.5);
+	padding: 1em;
+	margin: 1em;
+}
+

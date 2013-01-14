@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+ 
+    
+    function settingsChange(event) 
+    {
+    	safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("change", event);
+    }
+    
+    safari.extension.settings.addEventListener("change",settingsChange,false);
+    
+    function toggleDebug(event) {
+          if (event.command === "toggle_debug_info")
+          {
+          	var currentValue = safari.extension.settings.show_debug_info;
+          	safari.extension.settings.show_debug_info = !currentValue;
+          }
+       }
+       
+    safari.application.addEventListener("command", toggleDebug, false);
+ 
+</script>
+</head>
+<body></body>
+</html>
+

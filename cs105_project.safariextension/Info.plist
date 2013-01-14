@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Prof. Adams</string>
+	<key>Builder Version</key>
+	<string>8536.26.17</string>
+	<key>CFBundleDisplayName</key>
+	<string>cs105_project</string>
+	<key>CFBundleIdentifier</key>
+	<string>edu.wells.safari.cs105project</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1c</string>
+	<key>CFBundleVersion</key>
+	<string>0.1.3</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>toggle_debug_info</string>
+				<key>Identifier</key>
+				<string>tdi</string>
+				<key>Title</key>
+				<string>Toggle Debug Info</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>cs105projectMain.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>jquery-1.4.2.min.js</string>
+				<string>displaymonitor.js</string>
+				<string>contentcheck.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>jqueried.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://cs.wells.edu/cs105/*.htm*</string>
+			<string>http://cs.wells.edu/cs105/*.php</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Tools for checking CS105 Projects</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>cs.wells.edu</string>
+				<string>eclipse.wells.edu</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://eclipse.wells.edu/badams/courses/cs10x/cs105/automation/versions.plist</string>
+</dict>
+</plist>
